@@ -12,11 +12,14 @@
     tools:context="com.example.sazgar.calculator.MainActivity">
 
 
+
+
     <TextView
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="3"
-        android:hint="press buttons" />
+        android:hint="press buttons"
+        android:id="@+id/text"/>
 
     <LinearLayout
         android:layout_width="match_parent"
